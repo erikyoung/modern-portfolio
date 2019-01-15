@@ -1,4 +1,48 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
 
+	<title>Persona | Minimal Resume</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon" href="http://surveygizmolibrary.s3.amazonaws.com/library/650781/square_logo.ico" type="image/x-icon">
+	<!-- Core Meta Data -->
+	<meta name="author" content="Aether-Themes">
+	<meta name="description" content="Persona. Minimal resume and CV landing page.">
+	<meta name="keywords" content="template,CV,resume,landing page,minimal,responsive,html5,css3,jquery">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Apple Touch Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'>
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/framework.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+	<!-- Colors -->
+	<link rel="stylesheet" type="text/css" href="css/colors/ruby-red.css" media="screen">
+	<!-- <link rel="alternate stylesheet" type="text/css" href="css/colors/aqua-blue.css" media="screen"> -->
+	<!-- <link rel="alternate stylesheet" type="text/css" href="css/colors/mint-green.css" media="screen"> -->
+	 <link rel="alternate stylesheet" type="text/css" href="css/colors/rose-pink.css" media="screen"> 
+	<!-- <link rel="alternate stylesheet" type="text/css" href="css/colors/sunflower-yellow.css" media="screen"> -->
+
+	<!-- Javascript -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/jquery.js"></script>
+</head>
+<body>
 	
 			
 <div class="teachertusslecasestudy">
@@ -15,28 +59,28 @@
 
 			<div class="col text-center mx-auto px-2 pb-2 target-user-rectangle">
 				<div class="margins-div">
-				<%= scroll_reveal(animation: "enter bottom over 1.0 after 0.2s" ) do %>
+				
 					 <h1 id="target-user">Target User<br /><br /></h1>
 					 <p class="primary-users-bit">The primary users are university lecturers and professors who are looking for an easy-to-access resources to reduce work-related stress.</p>
 					 <h1 id="goal">Goal</h1>
 					 <p class="primary-goals">The primary goal of this app was to provide a type of comic relief to the day-to-day demands of work. Research showed that teachers have little ability to change their situation, but what they can do is find ways to laugh and interract with each other in order to highlight the camraderie that often comes with difficult work</p>
 					 <h1 id="role">My Role</h1>
 					 <p class="my-role">UX/UI Designer & Researcher</p>
-					 <% end %> 
+					 
 				</div><!--margins-div--> 
 			</div><!--target-users-rectangle--> 
 		
 
 		
 			<div class="col-12 text-center mx-auto px-2 skills-image">
-				<%= image_tag('skills.png', class: 'img-fluid') %> 
+				<img class='img-fluid' src='images/skills.png'> 
 				<div class="margins-div">
-				<%= scroll_reveal(animation: "enter bottom over 1.0s after 0.2s" ) do %>
+				
 					 <h1 id="target-user">Summary<br /><br /></h1>
 					 <p class=" primary-users-bit"> Teacher Tussles is an app that provides a place for teachers to take out their frustrations and have a collective experience. The app is meant to be easy to use, provocative in nature, and social, so that everyone can share amongst their colleagues and peers; it is meant to serve as a resource for teachers to set aside the stresses of their job and create friendly competitions between friends. </p>
 					 <br /> 
 					 <p class="primary-goals">The research for this app showed that most teachers suffer from chronic stress in some way, shape, or form. In the vast majority of cases, the stress of the job is cumulative, not cumulative or specific. In reflection of this, the findings of the research showed that we needed to design something that would allow teachers to create a digital avatar for themselves, be able to challenge each other in a flexible way, and be able to share those results amongst friends and peers if they so felt like it. </p>
-					 <% end %> 
+					  
 				</div><!--margins-div--> 
 			</div>
 			
@@ -51,13 +95,13 @@
 
 				<br />
 				<br /> 
-				<%= scroll_reveal(animation: "enter bottom over 1.0s after 0.2s" ) do %>
+				
 				<h1 id="target-user">Research</h1>
-				<%= image_tag('research-image.png', class: 'mx-auto d-block') %> 
+				<img class='mx-auto d-block' src='images/research-image.png'> 
 					<div class="margins-div">
 					 <p class=" primary-users-bit">Research began by looking at the current scope of the problem of work-related stress for teachers. I had little knowledge of the extent of the problem, so I needed to read about what kind of information had already been uncovered. From there, I also needed to see what kind of apps or technology currently existed that addressed this issue, if at all. What I discovered was that there are a number of self-help apps for almost every industry, but there was very little that was specific to teachers; in fact, most education apps were focused on teachers doing their job better, but nothing that actually addressed the core problem of teacher wellness.  <br /><br />In addition, I also needed to spend considerable time understanding how gamification of behavior has been addressed in apps. Naturally, if i wanted to create such an app, I needed to look into how others have done this, what models or patterns already exist, and how it might be applied to my end goal; which in this case, was increasing wellness of teachers. <br /> <br />When we began the primary research phase, we inverviewed 6 people, ranging in age from 21 to 51 to get a diverse range of perspectives from people who were both new and old to the higher education sector. During the interviews, the emphasis of our discussions focused primarily around workplace stress and what condition and circumstances existed that were mitigating and aggravating factors. We also looked at things like coping behaviors and general responses to stress to get a sense of how they deal with things day to day. <br /><br />As a general summary, we discovered that teachers are constantly caught between rising student expectations and unrealistic management KPIs, which seems to be vague in arbitrary in their meaning. It was also reported that growing class sizes and increased hours of teaching  had made research something of a luxury, which was required for their job but often at the expense of personal responsibilities, such as childcare and time with their spouse. Suffice to say, this was a very agitated community that was looking for an outlet. </p>
 					 <br /> 
-					 <% end %> 
+					 
 				</div><!--margins-div--> 
 			</div><!--line-process--> 
 		
@@ -66,17 +110,17 @@
 		
 			<div class="col-12 text-center mx-auto px-2 ">
 				<h1 id="target-user">Strategy</h1>
-				<%= image_tag('strategy.png', class: 'mx-auto d-block') %> 
+				<img class='mx-auto d-block' src='images/strategy.png'> 
 				<div class="margins-div">
-				<%= scroll_reveal(animation: "enter bottom over 1.0s after 0.2s" ) do %>
+				
 					 <p class=" primary-users-bit">With all this research and useful information from users, there were several personas that could have been chosen. The best thing to do then was to look at the clusters of charateristics from each of them to develop a unifying persona. Here is what came out: </p>
 					 <br /> 
-				<%= image_tag('davide.png', class: 'img-fluid') %> <br /> <br /> 
-				<%= image_tag('davide-empathy-map.png', class: 'img-fluid') %> <br /> <br /> 
+				<img class= 'img-fluid' src='images/davide.png'> <br /> <br /> 
+				<img class='img-fluid' src='images/davide-empathy-map.png'> <br /> <br /> 
 					<p class=" primary-users-bit"> From there, we began to think through two objectives: how to gamify the experience as well as how the navigation of such an experience would work. In that case, we made the navigation for it very robust so that the user could easily revert back to common points in the application while still making it easy to jump to other actvities when needed.  With this solution, we’ve included choosing an avatar as part of the onboarding process. From here, users could easily view their friends and challenge them as needed. </p> <br /> 
 
 					<h2 id="process">User Flow</h2>
-					<%= image_tag('user-flow.png', class: 'img-fluid') %> <br /> <% end %> 
+					<img class='img-fluid' src='images/user-flow.png'> <br /> 
 				
 				</div><!--margins-div--> 
 			</div><!--col mx-auto--> 
@@ -85,44 +129,42 @@
 		
 			<div class="col-12 text-center mx-auto px-2 ">
 					<h1 id="target-user">Interaction & UI Design</h1>
-					<%= scroll_reveal(animation: "enter bottom over 1.0s after 0.2s" ) do %>
-					<%= image_tag('interaction.png', class: 'img-fluid') %> 
+					
+					<img class='img-fluid' src='images/interaction.png'> 
 				<div class="margins-div">
 					 <p class=" primary-users-bit">After the initial user flow and low-fidelity wireframes were complete, I did some initial usability testing to see how my peers would respond to it. What I had quickly discovered was that teachers wanted more relatable characters, each with their own unique characteristics, and they wanted to have more interaction to make them feel that this was more of a ‘battle’; they also wanted flexibility about the kinds of challenges they could engage in.</p>
 					 <br /> 
 					 <p class=" primary-users-bit">The useful feedack I made it clear that this needs to signal something that is both gamified and something of a battle. So when thinking through the color palette and the initial styling, this had to be at the forefront of my thoughts. Here is what came out:</p>
 					 <br /> 
 					 <h2 id="process">Styleguide</h2><br /> 
-					<%= image_tag('styleguide.png', class: 'img-fluid', :style => 'border: 1px solid #000;') %> <br /> 
+					<img class='img-fluid' src='images/styleguide.png' style="border: 1px solid #000;"> <br /> 
 					<br /> 
-					<% end %> 
+					
 				<h2 id="process">High Fidelity Wireframe</h2> <br /> 
 				</div><!--margins-div--> 
 			</div><!--col--> 
 		
 
-		<%= scroll_reveal(animation: "enter bottom over 1.0s after 0.2s" ) do %>
+		
 			<div class="d-flex flex-row mb-3">
-				<%= image_tag('initial-layout.png', class: 'mx-auto d-block mb-3', :style => 'padding: 0 45px;margin: 0;') %> 
+				<img class='mx-auto d-block mb-3' src='images/initial-layout.png' style="padding: 0 45px;margin: 0;"> 
 			
 			</div>
 		 
 
 		
 			<div class="d-flex flex-row mt-3 mb-3">
-				<%= image_tag('other-layer.png', class: 'mx-auto d-block', :style => 'padding: 0 45px;margin: 0;') %> 
-			
-				
+				<img class='mx-auto d-block' src='images/other-layer.png' style="padding: 0 45px;margin: 0;"> 
 			</div>
 		
-			<% end %> 
+			
 		
 			<div class="col-12 text-center mx-auto px-2 line-process">
-			<%= scroll_reveal(animation: "enter bottom over 1.0s after 0.2s" ) do %>
+			
 				<h1 id="target-user">Usability and Prototyping</h1>
 				<div class="margins-div">
 					<p class=" primary-users-bit">
-					Usability Testing confirmed our belief at this point: we had built something that made sense to the user and was easy to use. Earlly iterations of the testing were a little bit rough, but much of that was due to the fact that users were not that familiar with low-fidelity mockups of the site, so there was some basic issues with navigation. Prototyping is also an area people are not that used to as well, so getting a feel for the limitations of a site such as that was also a consideration. You can find the prototype we used<span><%= link_to 'https://invis.io/TRO3QPSESWG' do %> here.</span><% end %>  </p><br />
+					Usability Testing confirmed our belief at this point: we had built something that made sense to the user and was easy to use. Earlly iterations of the testing were a little bit rough, but much of that was due to the fact that users were not that familiar with low-fidelity mockups of the site, so there was some basic issues with navigation. Prototyping is also an area people are not that used to as well, so getting a feel for the limitations of a site such as that was also a consideration. You can find the prototype we used<span><a href='https://invis.io/TRO3QPSESWG'> here.</span></a>  </p><br />
 				</div>
 			</div><!--col--> 
 		
@@ -133,12 +175,13 @@
 				<div class="margins-div">
 					<p class=" primary-users-bit">
 					Buidling this application revealed a lot of important lessons for me; of note the difference between something that might be useful versus something that is financially viable. In this case, it was clear that there is a need to have a resource for teachers to have an outlet for their stress; however, in the course of doing the research, it was clear that teacher stress and coping behaviors were not all that different than people in any other profession. So in this sense, building an application that touched specifically on the work of teachers that was in fact bankable would required a lot more time and research. My gut feeling, however, is that it is likely more trouble than it’s worth to make such an app for such a niche market. In the future, I will definitely take a closer look at the business case for such an application before undertaking the project.</p> <br />
-					<% end %> 
+					
 				</div>
 			</div><!--col--> 
 		
-
-		
+		<script src="js/works.js"></script>
+		</body>
+		</html>
 
 
 
