@@ -1,7 +1,51 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
 
+	<title>Persona | Minimal Resume</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon" href="http://surveygizmolibrary.s3.amazonaws.com/library/650781/square_logo.ico" type="image/x-icon">
+	<!-- Core Meta Data -->
+	<meta name="author" content="Aether-Themes">
+	<meta name="description" content="Persona. Minimal resume and CV landing page.">
+	<meta name="keywords" content="template,CV,resume,landing page,minimal,responsive,html5,css3,jquery">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Apple Touch Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'>
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/framework.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+	<!-- Colors -->
+	<link rel="stylesheet" type="text/css" href="css/colors/ruby-red.css" media="screen">
+	<!-- <link rel="alternate stylesheet" type="text/css" href="css/colors/aqua-blue.css" media="screen"> -->
+	<!-- <link rel="alternate stylesheet" type="text/css" href="css/colors/mint-green.css" media="screen"> -->
+	 <link rel="alternate stylesheet" type="text/css" href="css/colors/rose-pink.css" media="screen"> 
+	<!-- <link rel="alternate stylesheet" type="text/css" href="css/colors/sunflower-yellow.css" media="screen"> -->
+
+	<!-- Javascript -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/jquery.js"></script>
+</head>
+<body>
 			<div class="spotify-top">
-				<div class="spotify-control text-center">
-					<%= image_tag('new-spotify-title-top.png', class: 'img-fluid', id: 'spotify-cover') %> 
+				<div class="text-center spotify-control">
+					<img class='img-fluid' src='images/new-spotify-title-top.png',  id='spotify-cover'>
 					<a class="mouse-scroll" href="#"></a>
 				</div>
 			</div>
@@ -18,7 +62,7 @@
 			</div><!--target-users-rectangle--> 
 
 			<div class="col-12 text-center mx-auto px-2 skills-image">
-				<%= image_tag('skills.png', class: 'img-fluid') %> 
+				<img class='img-fluid' src='images/skills.png'> 
 				<div class="margins-div">
 					 <h1 id="target-user">Summary<br /><br /></h1>
 					 <p class="primary-users-bit">Spotify is amongst the most popular streaming music applications in existance. While the accessbility of music and the discovery of new music remains their core business, in recent years there has been a growing interest in expanding music into the social sharing sphere. </p>
@@ -37,14 +81,14 @@
 				<br />
 				<br /> 
 				<h1 id="target-user">Research</h1>
-				<%= image_tag('spotify-research-image.png', class: 'mx-auto d-block') %> 
+				<img class='mx-auto d-block' src='images/spotify-research-image.png'> 
 					<br /> 
 					<div class="margins-div">
 					 <p class=" primary-users-bit">Research began by looking at the current landscape of online streaming music. We started with an exhaustive competitive analysis to see who the major players in the market were and what points of  differentiation may have existed. The goals here were straightforward: to better understand how sharing was being done by any competitors, and to what extent was it successful; we also wanted to see how we could further distinguish our own existing product and develop a truly organic social music sharing sphere. Here is a quick look at where we started off:<br /> 
  						<br /> 
 				     </p>
 					 <br /> 
-					 <%= image_tag("spotify-competition.png", class:'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /><br /><br />
+					 <img class='img-fluid' src="images/spotify-competition.png" style= "box-shadow: 0px 3px 15px rgba(0,0,0,0.2);"> <br /><br /><br />
 					 <p class=" primary-users-bit">We inverviewed 6 people, ranging in age from 21 to 51 to get a diverse range of perspectives from people who buy products or regularly do any shopping. During the interviews, the emphases of our interviews was on their recollection of a recent shopping experience. Through this retelling of their experiences, we looked deeply at the motivations behind certain purchases and understanding the drivers that went into certain purchases as well as what pain points came up during their shopping experience. We then used this information to inform the main content of our page and how we intended to proceed with building out the site. <br />
 
 					As a general summary, we discovered that purchases are not done randomly; rather, they are part of a variety of circumstances, recent decisions and experiences, and even marketing that has led to their purchase. On top of that, we also discoverd what they want out of a shopping experience as well: maximum info and maximum convenience. <br /> 
@@ -62,15 +106,15 @@
 				   <p class="primary-users-bit">With those ideas fresh out there, we began to iterate over possible solutions to see what could be possible. For the research, however, here is what we learned: 
 				   </p><br /> 
 
-				   <%=image_tag('spotify-research.png', class:'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+				   <img class="img-fluid" src="images/spotify-research.png" style="box-shadow: 0px 3px 15px rgba(0,0,0,0.2);")> 
 				   <br /><br />
 
 				   <p class="primary-users-bit">With this information, we could finally begin to build out what our users were about with some degree of confidence through the use of a Persona and an Empathy Map. These two documents help us to focus our energies into specific regions. </p><br /> <br />
 
-				   <%= image_tag('spotify-persona.png', class:'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+				   <img class='img-fluid' src="images/spotify-persona.png" style="box-shadow: 0px 3px 15px rgba(0,0,0,0.2);"> 
 				   <br /><br />
 
-				   <%= image_tag('spotify-empathy.png', class:'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+				   <img class='img-fluid' src="images/spotify-empathy.png" style="box-shadow: 0px 3px 15px rgba(0,0,0,0.2);"> 
 				   <br />
 				   <br />
 				   <p class="primary-users-bit">The main aspect that is carried throughtout all the interviews and the maps above is this: music is something that I share to express myself, and my mood is a core part of what I express. I want to be able to show my mood as part of a continuum.   
@@ -82,17 +126,17 @@
 
 			<div class="col-12 text-center mx-auto px-2">
 				<h1 id="target-user">Strategy</h1>
-				<%= image_tag('strategy.png', class: 'mx-auto d-block') %> 
+				<img class='mx-auto d-block' src="images/strategy.png"> 
 				<div class="margins-div">
 					 <p class=" primary-users-bit">With all this research and useful information from users, we now had to begin the work of conceptualizing the Information Architecture and where this new feature would be located on the application and how would people interract with it. This created an interesting problem: 
 					 <br />
 					It makes no sense to develop a user flow on something that people are already familiar with and already has an existing UI, so how do we develop the correct placement and interaction with the feature without incorporating usability testing as part of the information architecture process?  </p>
 					 <br /> 
-				<%= image_tag('spotify-original-uf.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
-				<%= image_tag('spotify-userflow.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
+				<img class= 'img-fluid' src= "images/spotify-original-uf.png" style="box-shadow: 0px 3px 15px rgba(0,0,0,0.2);"> <br /> <br /> 
+				<img class='img-fluid' src="images/spotify-userflow.png" style="box-shadow: 0px 3px 15px rgba(0,0,0,0.2);"> <br /> <br /> 
 					<p class="primary-users-bit">As you can see in the above layouts of the user flow, a simple chart was not going to get at the success of the user to get to our task, nor was it going to address their ability to interact with the new feature. So from this chart, we developed a brief user flow that lead to the page and the ‘mood mix’ that we constructred. But this still didn’t get at what we wanted, so we had to iterate further. From here, we took the feedback and began to develop the user flow more fully, specifically with regard to the navigation on the page we wanted:  </p> <br /> 
 
-					<%= image_tag('spotify-early-ui.png', class:'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+					<img class='img-fluid' src="images/spotify-early-ui.png" style="box-shadow: 0px 3px 15px rgba(0,0,0,0.2);"> 
 					<br />
 					</br /> 
 
@@ -122,7 +166,7 @@
 
 					 </p><br /><br />
 
-					 <%= image_tag('spotify-ui-final.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+					 <img class='img-fluid' src="images/spotify-ui-final.png" style="box-shadow: 0px 3px 15px rgba(0,0,0,0.2);"> 
 					 <br />
 					 <br />
 					 <p class="primary-users-bit">
@@ -139,8 +183,9 @@
 			</div><!--col--> 
 
 			
-				
-			
+		<script src="js/works.js"></script>		
+	</body>
+	</html>		
 			
 
 

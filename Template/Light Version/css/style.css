@@ -1092,21 +1092,6 @@ footer {
     
 }
 
-.mouse-scroll:before {
-	content: '';
-    position: absolute;
-    top: 8px;
-    left: 11px;
-    width: 4px;
-    height: 4px;
-    background: #FFF;
-    border-radius: 4px;
-    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-    -moz-animation: scrollanimation 2s infinite alternate;
-    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-    -webkit-animation: scrollanimation 2s infinite alternate;
-    animation: scrollanimation 1s infinite alternate;
-}
 
 .primary-users-bit, .primary-goals {
 	color: black; 
@@ -1226,6 +1211,23 @@ footer {
 
 }
 
+.mouse-scroll:before {
+	content: '';
+    position: absolute;
+    top: 8px;
+    left: 11px;
+    width: 4px;
+    height: 4px;
+    background: #FFF;
+    border-radius: 4px;
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-animation: scrollanimation 2s infinite alternate;
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-animation: scrollanimation 2s infinite alternate;
+    animation: scrollanimation 1s infinite alternate;
+}
+
+
 .mouse-scroll {
 	display: block;
     position: relative;
@@ -1242,28 +1244,6 @@ footer {
     
 }
 
-#app-title {
-    font-size: 64.0px;
-    position: relative;
-    top: 300px;
-    color: white;
-    text-align: center;
-    line-height: 77.0px;
-}
-
-.target-user-rectangle {
-    background-color: #F1F5F8;
-    background-size: cover;
-
-/* teacher tussle */
-
-
-
-
-
-
-
-
 @-moz-keyframes scrollanimation {
 	0% { height:2px; }
     100% { height: 20px; }
@@ -1277,6 +1257,54 @@ footer {
     0% { height: 2px; }
     100% { height: 20px; }
 }
+
+
+#app-title {
+    font-size: 64.0px;
+    position: relative;
+    top: 300px;
+    color: white;
+    text-align: center;
+    line-height: 77.0px;
+}
+
+.target-user-rectangle {
+    background-color: #F1F5F8;
+    background-size: cover;
+
+}
+
+
+
+.spotify-top {
+	min-height: 800px;
+	width: 100vw; 
+    background-image: url("../images/rvsd-spotify-top.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:0px;
+    left:0px; 
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: -10;
+}
+
+.spotify-control {
+	padding-top: 100px; 
+}
+
+.target-user-spotify {
+	background-color: #F1F5F8; 
+	width: 100%;
+    height: 750px;
+}
+
+
+
+
+
+
 
 
 
